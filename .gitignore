@@ -5,3 +5,9 @@ __pycache__/
 .env
 backend/.venv/
 *.pyc
+frontend/.next/
+frontend/.env.local
+
+frontend/node_modules/
+
+video/node_modules/
