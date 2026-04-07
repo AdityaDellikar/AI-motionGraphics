@@ -1,0 +1,13 @@
+{
+  "name": "research-visualizer",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "frontend",
+    "video"
+  ],
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "render": "npm --prefix video run render"
+  }
+}

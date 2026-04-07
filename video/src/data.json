@@ -1,0 +1,36 @@
+{
+  "scenes": [
+    {
+      "type": "title",
+      "text": "Neural Sequence Compression for Scientific Corpora",
+      "duration": 90
+    },
+    {
+      "type": "problem",
+      "text": "Scientific PDFs are long and hard to communicate quickly in conference demos.",
+      "duration": 90
+    },
+    {
+      "type": "method",
+      "text": "The paper proposes a compression-aware encoder and decoder for concise scientific summarization.",
+      "duration": 90
+    },
+    {
+      "type": "architecture",
+      "text": "Encode document sections into compact latent vectors.\nApply cross-section attention to preserve causal links.\nDecode structured highlights for downstream visualization.",
+      "steps": [
+        "Encode document sections into compact latent vectors.",
+        "Apply cross-section attention to preserve causal links.",
+        "Decode structured highlights for downstream visualization."
+      ],
+      "duration": 150
+    },
+    {
+      "type": "result_impact",
+      "text": "Result: The model improves summary fidelity and reduces inference cost across benchmark papers.\nImpact: Researchers can rapidly present core contributions with consistent narrative quality.",
+      "result": "The model improves summary fidelity and reduces inference cost across benchmark papers.",
+      "impact": "Researchers can rapidly present core contributions with consistent narrative quality.",
+      "duration": 120
+    }
+  ]
+}
